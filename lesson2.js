@@ -3,14 +3,14 @@
 let int1 = 13;
 let int2 = 25;
 
-console.log(`Task 1. Sum of two given integers using backtick: ${int1 + int2}`);
+console.log(`Task 1. Sum of two given integers: ${int1 + int2}`);
 
 // task 2
 
 let string = "Environment"
 let newString = "Test_" + string;
 
-console.log(`Task 2. Add 'Test_' in front of givent string: ${newString}`);
+console.log(`Task 2. Add 'Test_' in front of given string: ${newString}`);
 
 // task 3
 
