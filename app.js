@@ -5,6 +5,8 @@ console.log("Now, I need to know your name, type it below: ");
 
 let stdin = process.openStdin();
 
+// comment writen by korkoza
+
 stdin.addListener("data", (txt) => {
     if(txt.toString().trim() === "quit") {
         console.log("\nHave a nice JS trip! Bye-bye");
