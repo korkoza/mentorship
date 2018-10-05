@@ -29,6 +29,21 @@ console.log(`Task 2. Given string '${string}' is ${result}`);
 
 empty(str2);
 
+// task 2 REG exp
+let patt;
+let str21 = "       f     ";
+let result21;
+let result22;
+
+patt = /\s/g;
+result21 = str21.match(patt);
+
+if (str21 !== '' && result21.length !== str21.length) {
+    console.log(`Task 21. Given string '${str21}' is not empty`);
+} else {
+    console.log(`Task 21. Given string '${str21}' is empty`);
+}
+
 
 // task 3
 
