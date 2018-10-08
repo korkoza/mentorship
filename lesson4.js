@@ -34,8 +34,8 @@ console.log(`Task 3. Add two arrays - '${arr33}'`);
 let rectangle = {
     width: 15,
     height: 5,
-    area: function(){return this.width * this.height;},
-    perimeter: function(){return this.width * 2 + this.height * 2;}
+    getArea: function(){return this.width * this.height;},
+    getPerimeter: function(){return this.width * 2 + this.height * 2;}
 };
 
-console.log(`Task 4. Area of rectangle - ${rectangle.area()}, perimeter - ${rectangle.perimeter()}`);
+console.log(`Task 4. Area of rectangle - ${rectangle.getArea()}, Perimeter - ${rectangle.getPerimeter()}`);
