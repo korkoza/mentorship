@@ -15,9 +15,13 @@ class Car extends Vehicle {
         console.log(`${this.maxSpeed * 0.8} overriden`)
     }
 
+    parent(){
+        super.optSpeed();
+        }
+
     static staticMethod() {
         console.log("it's static method called for class");
     }
 }
 
- exports.Car = Car;
+ module.exports = Car;

@@ -12,5 +12,5 @@ class Truck extends Vehicle {
     }
 }
 
-exports.Truck = Truck;
+module.exports = Truck;
 
